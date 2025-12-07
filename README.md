@@ -1,4 +1,4 @@
-# 🌬️ Wind Power Prediction: Time-Series Regression Pipeline for Wind Turbine Data
+# Wind Power Prediction: Time-Series Regression Pipeline for Wind Turbine Data
 
 This project implements a **modular machine-learning pipeline** for predicting wind-turbine power output using wind speed and wind direction.  
 It focuses on robust preprocessing of real-world time-series sensor data, cyclic feature engineering, model training, hyperparameter tuning, and MLflow-based experiment tracking.  
@@ -6,7 +6,7 @@ The full solution is implemented in **Python (Pandas, NumPy, Scikit-Learn, MLflo
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 The pipeline is designed to handle *inconsistent, irregularly sampled time-series data*.  
 Key capabilities include:
@@ -23,7 +23,7 @@ The goal is to understand how wind features influence turbine power output and t
 
 ---
 
-## 🧪 Key Features
+## Key Features
 
 - Time-series preprocessing pipeline (resampling, interpolation, normalization)  
 - Automatic handling of missing data and inconsistent intervals  
@@ -36,7 +36,7 @@ The goal is to understand how wind features influence turbine power output and t
 
 ---
 
-## 🔍 Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
 The dataset consists of:
 
@@ -57,7 +57,7 @@ This produced a clean, consistent time-series suitable for modeling.
 
 ---
 
-## 🌪 Wind Direction Feature Engineering
+## Wind Direction Feature Engineering
 
 Wind direction is inherently cyclic (0° = 360°).  
 To capture this relationship, the pipeline derives:
@@ -70,7 +70,7 @@ These features outperform one-hot encoding, which introduces unnecessary dimensi
 
 ---
 
-## 🧠 Machine Learning: Splitting & Pipeline Design
+## Machine Learning: Splitting & Pipeline Design
 
 ### Why Not a Standard Train/Test Split?
 A random split caused temporal leakage (training on future data).  
@@ -85,7 +85,7 @@ This broke trend dependencies and produced inflated scores.
 
 ---
 
-## 🏗 Model Pipelines
+## Model Pipelines
 
 Models are wrapped in Scikit-Learn pipelines:
 
