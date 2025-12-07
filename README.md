@@ -133,7 +133,7 @@ Insights:
 
 ---
 
-## 6. Results & Insights (Condensed)
+## 6. Results & Insights
 
 **Supported by findings:**
 
