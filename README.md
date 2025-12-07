@@ -5,9 +5,6 @@ Yelp Reviews and Authenticity
 
 This project explores large-scale text analysis on over **6.9 million Yelp reviews**, using PySpark and distributed computing. The objective is to investigate how authenticity-related language varies across cuisines, regions, and contexts — inspired by a 2019 study on how “authenticity” in food reviews reinforces cultural stereotypes.
 
-All code associated with this project can be found in the repository:
-**https://github.itu.dk/BDM-Autumn-2024/tolh_a1**
-
 ---
 
 ## 1. Project Overview
